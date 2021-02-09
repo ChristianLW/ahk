@@ -2,7 +2,7 @@
 Window := Gui.New("+AlwaysOnTop -Caption +ToolWindow", "Special Input")
 Window.BackColor := "101010"
 Window.SetFont("s16")
-Window.Add("Text", "cE0E0E0", "Special Input")
+Window.Add("Text", "y8 cE0E0E0", "Special Input")
 Window.Show("h40 xCenter y1040 NoActivate")
 
 Hook := InputHook()
