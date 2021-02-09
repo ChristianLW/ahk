@@ -1,3 +1,4 @@
+#SingleInstance
 ; Miscellaneous Characters
 	<^>!o::Send("°")
 	<^>!x::Send("×")
@@ -18,7 +19,6 @@
 	<^>!F1::Run("special.ahk")
 	<^>!F2::Run("greek.ahk")
 	<^>!F3::Run("cyrillic.ahk")
-	<^>!F4::Run("bpm.ahk")
 
 ; Scroll
 	CapsLock & XButton1::Send("{Blind}{WheelUp}")
