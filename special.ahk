@@ -51,7 +51,10 @@ loop {
 			case "Up":    Send("↑")
 			case "Down":  Send("↓")
 		}
+	} else if (Modifiers.RShift && Modifiers.RAlt) {
+		; Shift & AltGr
 	} else if (!Modifiers.RShift && !Modifiers.RAlt) {
+		; None
 		if (PassKeys.Has(Hook.EndKey)) {
 			Send("{" Hook.EndKey "}")
 			continue
