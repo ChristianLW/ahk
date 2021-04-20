@@ -9,7 +9,7 @@ Hook := InputHook()
 Hook.KeyOpt("{All}", "ES")
 Hook.KeyOpt("{LCtrl}{RCtrl}{LShift}{RShift}{LAlt}{RAlt}", "-ES")
 
-PassKeys := Map("Left", 0, "Right", 0, "Up", 0, "Down", 0, "Backspace", 0)
+PassKeys := Map("Left", 0, "Right", 0, "Up", 0, "Down", 0, "Backspace", 0, "Delete", 0)
 
 loop {
 	Hook.Start()
