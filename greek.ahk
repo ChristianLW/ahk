@@ -7,6 +7,7 @@ Window.Show("h40 xCenter y1040 NoActivate")
 
 Esc::ExitApp()
 
+; Comments refer to what the Greek keyboard layout uses
 ; Lowercase
 	a::Send("α")
 	b::Send("β")
@@ -15,7 +16,7 @@ Esc::ExitApp()
 	e::Send("ε")
 	z::Send("ζ")
 	h::Send("η")
-	y::Send("θ") ; U on Greek keyboards
+	y::Send("θ") ; U
 	i::Send("ι")
 	k::Send("κ")
 	l::Send("λ")
@@ -26,13 +27,13 @@ Esc::ExitApp()
 	p::Send("π")
 	r::Send("ρ")
 	s::Send("σ")
-	c::Send("ς") ; W on Greek keyboards
+	c::Send("ς") ; W
 	t::Send("τ")
-	u::Send("υ") ; Y on Greek keyboards
+	u::Send("υ") ; Y
 	f::Send("φ")
 	x::Send("χ")
-	w::Send("ψ") ; C on Greek keyboards
-	q::Send("ω") ; V on Greek keyboards
+	w::Send("ψ") ; C
+	q::Send("ω") ; V
 ; Uppercase
 	+a::Send("Α")
 	+b::Send("Β")
@@ -41,7 +42,7 @@ Esc::ExitApp()
 	+e::Send("Ε")
 	+z::Send("Ζ")
 	+h::Send("Η")
-	+y::Send("Θ") ; U on Greek keyboards
+	+y::Send("Θ")
 	+i::Send("Ι")
 	+k::Send("Κ")
 	+l::Send("Λ")
@@ -53,11 +54,11 @@ Esc::ExitApp()
 	+r::Send("Ρ")
 	+s::Send("Σ")
 	+t::Send("Τ")
-	+u::Send("Υ") ; Y on Greek keyboards
+	+u::Send("Υ")
 	+f::Send("Φ")
 	+x::Send("Χ")
-	+w::Send("Ψ") ; C on Greek keyboards
-	+q::Send("Ω") ; V on Greek keyboards
+	+w::Send("Ψ")
+	+q::Send("Ω")
 ; Unused Letter Keys
 	v::return
 	+c::return
