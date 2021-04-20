@@ -15,7 +15,7 @@ Esc::ExitApp()
 	e::Send("ε")
 	z::Send("ζ")
 	h::Send("η")
-	u::Send("θ")
+	y::Send("θ") ; U on Greek keyboards
 	i::Send("ι")
 	k::Send("κ")
 	l::Send("λ")
@@ -28,7 +28,7 @@ Esc::ExitApp()
 	s::Send("σ")
 	c::Send("ς") ; W on Greek keyboards
 	t::Send("τ")
-	y::Send("υ")
+	u::Send("υ") ; Y on Greek keyboards
 	f::Send("φ")
 	x::Send("χ")
 	w::Send("ψ") ; C on Greek keyboards
@@ -41,7 +41,7 @@ Esc::ExitApp()
 	+e::Send("Ε")
 	+z::Send("Ζ")
 	+h::Send("Η")
-	+u::Send("Θ")
+	+y::Send("Θ") ; U on Greek keyboards
 	+i::Send("Ι")
 	+k::Send("Κ")
 	+l::Send("Λ")
@@ -53,7 +53,7 @@ Esc::ExitApp()
 	+r::Send("Ρ")
 	+s::Send("Σ")
 	+t::Send("Τ")
-	+y::Send("Υ")
+	+u::Send("Υ") ; Y on Greek keyboards
 	+f::Send("Φ")
 	+x::Send("Χ")
 	+w::Send("Ψ") ; C on Greek keyboards
