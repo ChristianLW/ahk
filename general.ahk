@@ -25,19 +25,6 @@
 	CapsLock & XButton1::Send("{Blind}{WheelUp}")
 	CapsLock & XButton2::Send("{Blind}{WheelDown}")
 
-; Box Drawing
-	CapsLock & NumpadAdd::Send("│")
-	CapsLock & Numpad0::Send("─")
-	CapsLock & Numpad1::Send("└")
-	CapsLock & Numpad2::Send("┴")
-	CapsLock & Numpad3::Send("┘")
-	CapsLock & Numpad4::Send("├")
-	CapsLock & Numpad5::Send("┼")
-	CapsLock & Numpad6::Send("┤")
-	CapsLock & Numpad7::Send("┌")
-	CapsLock & Numpad8::Send("┬")
-	CapsLock & Numpad9::Send("┐")
-
 ; Force Lock Keys
 	SetCapsLockState("AlwaysOff")
 	SetNumLockState("AlwaysOn")
