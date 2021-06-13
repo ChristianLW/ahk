@@ -29,6 +29,9 @@
 	SetCapsLockState("AlwaysOff")
 	SetNumLockState("AlwaysOn")
 
+; Rebind
+	CapsLock::F13
+
 ; Disable Multimedia Keys
 	Launch_App1::return
 	Launch_App2::return
