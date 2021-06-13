@@ -22,15 +22,11 @@
 	<^>!F4::Run("math.ahk")
 
 ; Scroll
-	CapsLock & XButton1::Send("{Blind}{WheelUp}")
-	CapsLock & XButton2::Send("{Blind}{WheelDown}")
+	F13 & XButton1::Send("{Blind}{WheelUp}")
+	F13 & XButton2::Send("{Blind}{WheelDown}")
 
 ; Force Lock Keys
-	SetCapsLockState("AlwaysOff")
 	SetNumLockState("AlwaysOn")
-
-; Rebind
-	CapsLock::F13
 
 ; Disable Multimedia Keys
 	Launch_App1::return
