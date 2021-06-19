@@ -29,12 +29,12 @@
 	SetNumLockState("AlwaysOn")
 
 ; Disable Multimedia Keys
-	Launch_App1::return
-	Launch_App2::return
-	Browser_Home::return
-	Launch_Mail::return
-	Volume_Mute::return
-	Volume_Up::return
-	Volume_Down::return
-	Media_Play_Pause::return
-	Launch_Media::return
+	*Launch_App1::return
+	*Launch_App2::return
+	*Browser_Home::return
+	*Launch_Mail::return
+	*Volume_Mute::return
+	*Volume_Up::return
+	*Volume_Down::return
+	*Media_Play_Pause::return
+	*Launch_Media::return
