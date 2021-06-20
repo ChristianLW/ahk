@@ -1,5 +1,5 @@
 #SingleInstance
-Window := Gui.New("+AlwaysOnTop -Caption +ToolWindow", "Math Input")
+Window := Gui("+AlwaysOnTop -Caption +ToolWindow", "Math Input")
 Window.BackColor := "101010"
 Window.SetFont("s16")
 Window.Add("Text", "y8 cE0E0E0", "Math Input")
