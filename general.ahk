@@ -22,8 +22,8 @@
 	<^>!F4::Run("math.ahk")
 
 ; Scroll
-	F13 & XButton1::Send("{Blind}{WheelUp}")
-	F13 & XButton2::Send("{Blind}{WheelDown}")
+	~F13 & XButton1::Send("{Blind}{WheelUp}")
+	~F13 & XButton2::Send("{Blind}{WheelDown}")
 
 ; Force Lock Keys
 	SetNumLockState("AlwaysOn")
