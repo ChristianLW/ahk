@@ -39,8 +39,11 @@ switch (Hook.Input) {
 	case "supset":   Send("⊃")
 	case "union":    Send("∪")
 	case "vdots":    Send("⋮")
+	case "vec":      Send("⃗")
 	case "<=":       Send("⟸")
 	case "=>":       Send("⟹")
 	case "(":        Send("〖")
 	case ")":        Send("〗")
 }
+
+ExitApp()
