@@ -7,18 +7,26 @@ Window.Show("h40 xCenter y1040 NoActivate")
 
 Esc::ExitApp()
 
-; Comments refer to what Google's "student" layout uses
+/* Ukrainian is missing the apostrophe, but since it clashes with    */
+/* the Russian version and is practically never used (as well as not */
+/* actually being a Cyrillic letter), it has not been implemented    */
+
+; Comments refer to what Google's "student" layout uses for Russian letters
 ; Lowercase
 	a::Send("а")
 	b::Send("б")
 	v::Send("в")
 	g::Send("г")
+	<^>!g::Send("ґ")
 	d::Send("д")
 	e::Send("е")
 	<^>!e::Send("ё") ; nothing
+	<^>!æ::Send("є")
 	å::Send("ж") ; Æ
 	z::Send("з")
 	i::Send("и")
+	<^>!i::Send("і")
+	<^>!j::Send("ї")
 	j::Send("й")
 	k::Send("к")
 	l::Send("л")
@@ -42,17 +50,23 @@ Esc::ExitApp()
 	æ::Send("э") ; Å
 	ø::Send("ю") ; .
 	q::Send("я") ; Q
+; Comments refer to whether the letter is Russian or Ukrainian
+; Lack of comment means that the letter is shared between the two languages
 ; Uppercase
 	+a::Send("А")
 	+b::Send("Б")
 	+v::Send("В")
 	+g::Send("Г")
+	<^>!+g::Send("Ґ") ; Ukrainian
 	+d::Send("Д")
 	+e::Send("Е")
-	<^>!+e::Send("Ё")
+	<^>!+e::Send("Ё") ; Russian
+	<^>!+æ::Send("Є") ; Ukrainian
 	+å::Send("Ж")
 	+z::Send("З")
 	+i::Send("И")
+	<^>!+i::Send("І") ; Ukrainian
+	<^>!+j::Send("Ї") ; Ukrainian
 	+j::Send("Й")
 	+k::Send("К")
 	+l::Send("Л")
@@ -70,9 +84,9 @@ Esc::ExitApp()
 	+c::Send("Ч")
 	+w::Send("Ш")
 	<^>!+w::Send("Щ")
-	<^>!+'::Send("Ъ")
-	+y::Send("Ы")
+	<^>!+'::Send("Ъ") ; Russian
+	+y::Send("Ы") ; Russian
 	+'::Send("Ь")
-	+æ::Send("Э")
+	+æ::Send("Э") ; Russian
 	+ø::Send("Ю")
 	+q::Send("Я")
