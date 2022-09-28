@@ -1,3 +1,4 @@
+#Requires AutoHotkey v2.0-beta.10
 #SingleInstance
 ; Miscellaneous Characters
 	<^>!o::Send("°")
