@@ -23,13 +23,13 @@
 	<^>!F4::Run("math.ahk")
 
 ; Scroll
-	~F13 & XButton1::Send("{Blind}{WheelUp}")
-	~F13 & XButton2::Send("{Blind}{WheelDown}")
-	~F13 & NumpadAdd::{
+	F13 & XButton1::Send("{Blind}{WheelUp}")
+	F13 & XButton2::Send("{Blind}{WheelDown}")
+	F13 & NumpadAdd::{
 		loop (10)
 		Send("{Blind}{WheelUp}")
 	}
-	~F13 & NumpadEnter::{
+	F13 & NumpadEnter::{
 		loop (10)
 		Send("{Blind}{WheelDown}")
 	}
